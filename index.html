@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maiores Inventores da Atualidade</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #2563eb;
+            --text: #334155;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .tag {
+            background-color: #dbeafe;
+            color: var(--accent);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+
+        .card h2 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #64748b;
+            margin-bottom: 1rem;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            background-color: var(--primary);
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mentes Brilhantes da Atualidade</h1>
+        <p>Os inventores que estão moldando o futuro da tecnologia, saúde e sustentabilidade.</p>
+    </header>
+
+    <div class="container">
+        <main class="grid">
+            
+            <!-- Inventor 1 -->
+            <article class="card">
+                <div class="card-content">
+                    <span class="tag">Biotecnologia</span>
+                    <h2>Jennifer Doudna</h2>
+                    <p><span class="highlight">Principal Invenção:</span> Sistema de edição genética CRISPR-Cas9.</p>
+                    <p>Cientista americana que codesenvolveu uma tecnologia revolucionária que permite editar o DNA com precisão cirúrgica, abrindo portas para a cura de doenças genéticas.</p>
+                </div>
+            </article>
+
+            <!-- Inventor 2 -->
+            <article class="card">
+                <div class="card-content">
+                    <span class="tag">Tecnologia da Informação</span>
+                    <h2>Tim Berners-Lee</h2>
+                    <p><span class="highlight">Principal Invenção:</span> World Wide Web (WWW).</p>
+                    <p>O engenheiro britânico que criou os protocolos fundamentais da internet moderna (HTTP, HTML, URL), mudando permanentemente a forma como a humanidade compartilha informações.</p>
+                </div>
+            </article>
+
+            <!-- Inventor 3 -->
+            <article class="card">
+                <div class="card-content">
+                    <span class="tag">Energia & Transporte</span>
+                    <h2>Elon Musk</h2>
+                    <p><span class="highlight">Principal Invenção:</span> Foguetes reutilizáveis (SpaceX Falcon 9).</p>
+                    <p>Embora focado na engenharia de sistemas, liderou o desenvolvimento dos primeiros foguetes comerciais de pouso vertical reutilizáveis, reduzindo drasticamente o custo do acesso ao espaço.</p>
+                </div>
+            </article>
+
+            <!-- Inventor 4 -->
+            <article class="card">
+                <div class="card-content">
+                    <span class="tag">Medicina</span>
+                    <h2>Robert Langer</h2>
+                    <p><span class="highlight">Principal Invenção:</span> Sistemas de liberação controlada de fármacos.</p>
+                    <p>Considerado o pai da engenharia de tecidos, suas patentes de biomateriais permitiram a criação de novos tratamentos contra o câncer e bases para as vacinas de mRNA.</p>
+                </div>
+            </article>
+
+            <!-- Inventor 5 -->
+            <article class="card">
+                <div class="card-content">
+                    <span class="tag">Inteligência Artificial</span>
+                    <h2>Demis Hassabis</h2>
+                    <p><span class="highlight">Principal Invenção:</span> AlphaFold (IA para dobramento de proteínas).</p>
+                    <p>Cofundador da Google DeepMind, liderou a criação do sistema de IA que resolveu o desafio biológico de prever a estrutura 3D de quase todas as proteínas conhecidas.</p>
+                </div>
+            </article>
+
+            <!-- Inventor 6 -->
+            <article class="card">
+                <div class="card-content">
+                    <span class="tag">Eletrônicos</span>
+                    <h2>Shuji Nakamura</h2>
+                    <p><span class="highlight">Principal Invenção:</span> LED azul de alta eficiência.</p>
+                    <p>O engenheiro japonês que viabilizou as lâmpadas LED brancas modernas e as telas de alta definição que economizam energia ao redor do planeta hoje em dia.</p>
+                </div>
+            </article>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Galeria dos Grandes Inventores. Criado para fins educacionais.</p>
+    </footer>
+
+</body>
+</html>
